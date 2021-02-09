@@ -7,19 +7,21 @@
 
 /* two containers */
 
-.first-container,.second-container {
+.first-container {
  width: 1200px;
+ height: 100px;
  margin: 30px;
  background-color: white;
 }
 
 .second-container {
-    margin: auto;
+width: 900px;
+margin: auto;
 }
 
 #logo {
 width: 60px;
-margin: 15px 0;
+margin: 10px 0;
 margin-left: 10px;
 vertical-align: middle;
 }
@@ -48,6 +50,11 @@ background-color: white;
 border: #708090;
 }
 
+.row {
+padding: 5px;;
+color: #708090;
+}
+
 .arrow {
 padding: 4px;
 font-size: 30px;
@@ -66,10 +73,19 @@ line-height: 30px;;
 
 .check {
 margin: 15px;
-padding: 3px;;
+padding: 3px;
 font-size: 9px;
 color: #00FA9A;
 border: 1px solid #00FA9A;
+border-radius: 50%;
+}
+
+.notdone {
+margin: 15px;
+padding: 3px;
+font-size: 9px;
+color: red;
+border: 1px solid red;
 border-radius: 50%;
 }
 

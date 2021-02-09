@@ -2,16 +2,38 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Noto Sans KR', Arial, Helvetica, sans-serif;
 }
 
 /* two containers */
 
-.first-container {
+.first-container,.second-container {
  width: 1200px;
+ margin: 30px;
  background-color: white;
-
 }
 
 #logo {
 width: 60px;
+margin: 15px 0;
+margin-left: 10px;
+vertical-align: middle;
+}
+
+.toboolist {
+display: inline-block;
+font-size: 18px;
+color: black;
+}
+
+.second-container {
+
+}
+
+.buttons {
+
+}
+
+.title {
+display: inline-block;
 }

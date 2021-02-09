@@ -13,6 +13,10 @@
  background-color: white;
 }
 
+.second-container {
+    margin: auto;
+}
+
 #logo {
 width: 60px;
 margin: 15px 0;
@@ -26,14 +30,82 @@ font-size: 18px;
 color: black;
 }
 
-.second-container {
-
+.button {
+margin: 5px;
+padding: 8px;
+border-radius: 7px;
 }
 
-.buttons {
 
+.button.one {
+color: white;
+background-color: rgb(22, 151, 238);
+}
+
+.button.two {
+color: #708090;
+background-color: white;
+border: #708090;
+}
+
+.arrow {
+padding: 4px;
+font-size: 30px;
+vertical-align: middle;
 }
 
 .title {
 display: inline-block;
+margin-top: 20px;
+line-height: 15px;
+}
+
+.item {
+line-height: 30px;;
+}
+
+.check {
+margin: 15px;
+padding: 3px;;
+font-size: 9px;
+color: #00FA9A;
+border: 1px solid #00FA9A;
+border-radius: 50%;
+}
+
+.label {
+width: 20px;
+margin: 5px;
+padding: 5px;
+font-size: 9px;
+color: white;
+border-radius: 7px;
+}
+
+.label.lightblue {
+background-color:#1E90FF;
+}
+
+.label.purple {
+background-color: #483D8B;
+}
+
+.label.lightgreen {
+background-color: #2E8B57;
+}
+
+.label.orange {
+background-color: #FFA500;
+}
+
+.label.pink {
+background-color: #DB7093;
+}
+
+.label.green {
+background-color: #6B8E23;
+}
+
+.label.secondlightblue {
+background-color: #008B8B;
 }
